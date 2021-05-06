@@ -63,3 +63,52 @@ tuplee = tuple(liste)
 print(tuplee)
 """
 #endregion
+
+# region 007/ 
+"""
+file_name = input("please give a file name\t:")
+f_name = file_name.split(".")
+print(f_name[-1])
+"""
+# endregion
+
+# region 008/ list sample
+"""
+color_list = ["Red","Green","White" ,"Black"]
+print(color_list[0],color_list[-1])
+"""
+# endregion
+
+# region 009/ extract with %i
+"""
+exam_st_date = (11,12,2014)
+print("your exam date is\t:%i/%i/%i"%exam_st_date )
+"""
+# endregion
+
+ #region 010/ simple calculation
+"""
+value = int(input("give a number\t:"))
+
+print((value*100) + ((value*2)*10)+ (value*3))
+"""
+# endregion
+
+#region 011/ __doc__
+"""
+print(list.__doc__)
+"""
+# endregion
+
+#region 012/  calendar 
+"""
+import calendar 
+
+y = int(input("Input the year : "))
+m = int(input("Input the month : "))
+print(calendar.month(y, m))
+"""
+# endregion
+
+
+
