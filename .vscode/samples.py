@@ -110,5 +110,109 @@ print(calendar.month(y, m))
 """
 # endregion
 
+# region 013/ uc tirnak
+
+# endregion
+
+# region 014/  from  datetime
+"""
+from  datetime import date 
+l_date = date(2021,12,24)
+f_date = date(2021, 5, 7)
+delta = l_date - f_date
+print(delta.days)
+"""
+# endregion
+
+# region 015/ volume of a sphere 
+"""
+pi = 3.1415926535897931
+r= 6.0
+V= 4.0/3.0*pi* r**3
+print('The volume of the sphere is: ',V)
+"""
+# endregion
+
+# region 016/ if
+"""
+def difference(n):
+	if n<=17:
+		return (17-n)
+	else:
+		return (n-17)*2
+	
+print(difference(18))
+print(difference(8))
+"""
+# endregion
+
+# region 017/ number in range(100,2000)
+"""
+number = int(input("give a number\t:"))
+print(number in range(100,2000))
+"""
+# endregion
+
+# region 018/ 
+"""
+liste = input("give three numbers with comma separated \t:")
+liste = liste.split(",")
+
+if int(liste[0]) == int(liste[1]) == int(liste[2]):
+	print(int(liste[0])**3)
+else:
+	print(int(liste[0]) +int(liste[1]) + int(liste[2]))
+"""
+# endregion
+
+# region 019/ 
+"""
+new = input("give new string that start 'Is'\t:")
+
+if new[:2] =="Is":
+	print(new)
+
+else:
+	print("Is" + new )
+"""
+# endregion
+
+# region 020/  copies of a given string
+"""
+def copies(n):
+	new = input("give a string\t:")
+	return new*n
+print(copies(5))
+"""
+"""
+def larger_string(str, n):
+   result = ""
+   for i in range(n):
+      result = result + str
+   return result
+"""
+# endregion
+
+
+
+
+
+
+
+
+
+
+# endregion
+
+
+
+
+
+
+
+
+
+
+
 
 
